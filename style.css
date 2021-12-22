@@ -1,6 +1,6 @@
 body {
     margin:0;
-    padding-top: 550px ;
+    padding-top: 800px;
     text-align: center;
 }
 
@@ -15,7 +15,10 @@ body {
     background: linear-gradient(crimson 0%, hotpink 100%);
     display:table;
     width: 100%;
-    height:100%;    
+    height:100%;   
+    left: 0;
+    right: 0;
+    top: 0; 
 }
 
  
@@ -23,6 +26,8 @@ body {
 
    display:table-cell;
    vertical-align:middle;
+   position: relative;
+   text-align: center;
 }
 
 h1{
@@ -52,3 +57,16 @@ h2{
     margin:8px auto ;
 }
 
+#bio{
+    font-family: fantasy;
+    text-align: center;
+    padding:50px;
+    margin-top: 50px;
+}
+
+p{
+    max-width: 400px;
+    font-size: 20px;
+    margin: 25px auto;
+    line-height: 1.3;
+}
