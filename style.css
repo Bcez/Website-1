@@ -72,29 +72,36 @@ p{
 }
 
 .menu{
-    list-style:none ;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    background: limegreen;
+    top: 0px;
     z-index: 10;
-    cursor:pointer;
+    margin-top: 0px;
+    width: 100%;
 }
 
 .links{
-    float:left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    
+    
+    padding-left: 33px;
+    padding-right: 33px;
+    
     font-family: arial;
     font-size: 20px;
+    display: inline;
 
 }
 .links:hover{
-    background-color: peru;
+    font-size:25px ;
+    text-decoration: underline;
 }
 
 a{
     text-decoration:none ;
     color:green;
+}
+
+#writings a{
+    text-decoration: underline !important;
+    color: mediumblue !important;
 }
